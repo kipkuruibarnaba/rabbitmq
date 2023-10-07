@@ -16,7 +16,7 @@ public class RabbitmqApplication {
 
 		SpringApplication.run(RabbitmqApplication.class, args);
 
-		System.out.println("...........Calling consumer and Publisher.............");
+//		System.out.println("...........Calling consumer and Publisher.............");
 //		Publisher publisher = new Publisher();
 //		publisher.publishMessage();
 //		System.out.println("Message published = "+ publisher);
@@ -37,9 +37,9 @@ public class RabbitmqApplication {
 //		TopicExchange topicExchange = new TopicExchange();
 //		topicExchange.publishMessage();
 //		topicExchange.consumeTopicMessage();
-		HeadersExchange headersExchange = new HeadersExchange();
-		headersExchange.publishMessage();
-		headersExchange.consumeHeadersMessage();
+//		HeadersExchange headersExchange = new HeadersExchange();
+//		headersExchange.publishMessage();
+//		headersExchange.consumeHeadersMessage();
 
 	}
 
